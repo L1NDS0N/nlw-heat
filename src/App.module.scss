@@ -10,3 +10,14 @@
 
 }
 
+.contentSigned::before {
+    content: '';
+    height: 100vh;
+    width: 420px;
+    background: url('./assets/background.svg') no-repeat;
+    background-size: cove;
+    position: absolute;
+    right: -200px;
+    top: 0;
+}
+
